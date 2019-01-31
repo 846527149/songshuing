@@ -4,7 +4,6 @@
     <banner/>
     <comgoods/>
     <comabout/>
-    <comcase/>
     <comnews/>
     <comlink/>
     <footerlink/>

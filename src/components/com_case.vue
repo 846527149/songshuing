@@ -7,7 +7,7 @@
       <li v-for="(item,index) in caseData" :key="index">
         <a :href="item.link">
           <div class="imgbox">
-            <img :src="item.src">
+            <img v-lazy="item.src">
             <div class="hover">
               <b></b>
               <div class="txt">

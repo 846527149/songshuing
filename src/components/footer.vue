@@ -25,14 +25,14 @@ export default {
   data() {
     return {
       footerData: {
-          logoImage:"",
+          logoImage:require("../../src/assets/images/gzh.jpg"),
           salePhone:"13206349983",
-          afterPhone:"13206349983",
-          address:"山东省济南市钢城区景海园林基地",
+          afterPhone:"13656349982",
+          address:"山东省莱芜市钢城区棋山国家森林公园桃峪村",
           email:"songshuing@126.com",
           webaddress:"https://www.songshuing.com",
-          renum:"鲁备000000001号",
-          company:"Copyright 2019 景海园林 All rights reserved"
+          renum:"鲁ICP备18055830号-1",
+          company:"Copyright 2008-2019 莱芜市景海园林农民专业合作社 "
       }
     };
   }

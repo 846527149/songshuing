@@ -1,6 +1,6 @@
 <template>
   <div class="banner_ny">
-    <img :src="bannerData.src">
+    <img v-lazy="bannerData.src">
   </div>
 </template>
 <style lang="scss" scoped>

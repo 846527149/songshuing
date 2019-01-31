@@ -19,9 +19,9 @@ export default {
     return {
       linkData: [
         {
-          title: "阳光造型松树",
+          title: "阳光造型松树基地",
           target: "_blank",
-          link: "#"
+          link: "http://www.songshu123.com"
         }
       ]
     };

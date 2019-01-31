@@ -9,7 +9,7 @@
           <li v-for="(item,index) in goodsData" :key="index">
             <a :href="item.href">
               <div class="imgbox">
-                <img :src="item.src">
+                <img v-lazy="item.src">
                 <p>{{item.title}}</p>
               </div>
             </a>
@@ -27,7 +27,7 @@ import combanner from "../components/com_banner";
 import footerlink from "../components/footer";
 
 export default {
-  name: "about",
+  name: "goods_zxs",
   components: {
     topmenu,
     combanner,
@@ -36,59 +36,59 @@ export default {
   data() {
     return {
       goodsData: [
-        {
+          {
           href: "",
           src: require("../../src/assets/images/goods.jpg"),
           title: "造型松树"
         },
-        {
+         {
           href: "",
-          src: require("../../src/assets/images/goods.jpg"),
+          src: require("../../src/assets/images/2019012309.jpg"),
           title: "造型松树"
         },
         {
           href: "",
-          src: require("../../src/assets/images/goods.jpg"),
+          src: require("../../src/assets/images/2019012302.jpg"),
+          title: "景观松"
+        },
+        {
+          href: "",
+          src: require("../../src/assets/images/2019012303.jpg"),
+          title: "黑松"
+        },
+        {
+          href: "",
+          src: require("../../src/assets/images/2019012304.jpg"),
           title: "造型松树"
         },
         {
           href: "",
-          src: require("../../src/assets/images/goods.jpg"),
+          src: require("../../src/assets/images/2019012305.jpg"),
           title: "造型松树"
         },
         {
           href: "",
-          src: require("../../src/assets/images/goods.jpg"),
+          src: require("../../src/assets/images/2019012306.jpg"),
           title: "造型松树"
         },
         {
           href: "",
-          src: require("../../src/assets/images/goods.jpg"),
+          src: require("../../src/assets/images/2019012307.jpg"),
           title: "造型松树"
         },
         {
           href: "",
-          src: require("../../src/assets/images/goods.jpg"),
+          src: require("../../src/assets/images/2019012308.jpg"),
           title: "造型松树"
         },
         {
           href: "",
-          src: require("../../src/assets/images/goods.jpg"),
+          src: require("../../src/assets/images/2019012310.jpg"),
           title: "造型松树"
         },
         {
           href: "",
-          src: require("../../src/assets/images/goods.jpg"),
-          title: "造型松树"
-        },
-        {
-          href: "",
-          src: require("../../src/assets/images/goods.jpg"),
-          title: "造型松树"
-        },
-        {
-          href: "",
-          src: require("../../src/assets/images/goods.jpg"),
+          src: require("../../src/assets/images/2019012311.jpg"),
           title: "造型松树"
         },
         {

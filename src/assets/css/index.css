@@ -2,7 +2,7 @@
 .fixed{top:-101px!important}
 #hd .logo{width:26%;float:left}
 #hd .logo a{display:block;height:100%;line-height:6.25rem}
-#hd .logo a img{width:100%;max-width:225px;display:inline-block;vertical-align:middle}
+#hd .logo a img{width:100%;display:inline-block;vertical-align:middle}
 #hd ul{width:72%;float:right}
 #hd ul li{position:relative;float:left;line-height:6.25rem;width:14.28%}
 #hd ul li a{display:inline-block;width:100%;text-align:center;font-size:15px;color:#000}
