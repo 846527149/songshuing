@@ -37,62 +37,62 @@ export default {
     return {
       goodsData: [
           {
-          href: "",
+          href: "goods_detail?code=goods",
           src: require("../../src/assets/images/goods.jpg"),
           title: "造型松树"
         },
          {
-          href: "",
+         href: "goods_detail?code=2019012309",
           src: require("../../src/assets/images/2019012309.jpg"),
           title: "造型松树"
         },
         {
-          href: "",
+          href: "goods_detail?code=2019012302",
           src: require("../../src/assets/images/2019012302.jpg"),
           title: "景观松"
         },
         {
-          href: "",
+         href: "goods_detail?code=2019012303",
           src: require("../../src/assets/images/2019012303.jpg"),
           title: "黑松"
         },
         {
-          href: "",
+         href: "goods_detail?code=2019012304",
           src: require("../../src/assets/images/2019012304.jpg"),
           title: "造型松树"
         },
         {
-          href: "",
+          href: "goods_detail?code=2019012305",
           src: require("../../src/assets/images/2019012305.jpg"),
           title: "造型松树"
         },
         {
-          href: "",
+         href: "goods_detail?code=2019012306",
           src: require("../../src/assets/images/2019012306.jpg"),
           title: "造型松树"
         },
         {
-          href: "",
+         href: "goods_detail?code=2019012307",
           src: require("../../src/assets/images/2019012307.jpg"),
           title: "造型松树"
         },
         {
-          href: "",
+          href: "goods_detail?code=2019012308",
           src: require("../../src/assets/images/2019012308.jpg"),
           title: "造型松树"
         },
         {
-          href: "",
+          href: "goods_detail?code=2019012310",
           src: require("../../src/assets/images/2019012310.jpg"),
           title: "造型松树"
         },
         {
-          href: "",
+          href: "goods_detail?code=2019012311",
           src: require("../../src/assets/images/2019012311.jpg"),
           title: "造型松树"
         },
         {
-          href: "",
+          href: "goods_detail?code=goods",
           src: require("../../src/assets/images/goods.jpg"),
           title: "造型松树"
         }

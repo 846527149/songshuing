@@ -12,7 +12,7 @@
           只要您一个电话，剩下的交给我们来给您操办。热忱欢迎社会各界朋友前来观光、洽谈。选购优质造型油松 ，泰山景松 ，造型黑松，大型景观树，黑松行道树，黑松，
           油松，就到景海园林！
         </p>
-        <a class="ckgd" href="#">查看详情 &gt;&gt;</a>
+          <router-link to="about" class="ckgd">查看详情</router-link>
       </div>
       <div class="clear"></div>
     </div>

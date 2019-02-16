@@ -4,6 +4,7 @@ import Index from '../views/index.vue'
 import About from '../views/about.vue'
 import Goods_zxs from '../views/goods_zxs.vue'
 import Goods_pj from '../views/goods_pj.vue'
+import Goods_detail from '../views/goods_detail.vue'
 import News from '../views/news.vue'
 import Case from '../views/case.vue'
 import Contact from '../views/contact.vue'
@@ -29,6 +30,10 @@ export const constantRouterMap = [{
   {
     path: "/goods_pj",
     component: Goods_pj
+  },
+  {
+    path: "/goods_detail",
+    component: Goods_detail
   },
   {
     path: "/news",
