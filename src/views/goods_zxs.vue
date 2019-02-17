@@ -7,12 +7,12 @@
         <h2>造型松树</h2>
         <ul>
           <li v-for="(item,index) in goodsData" :key="index">
-            <a :href="item.href">
+            <router-link :to="item.href">
               <div class="imgbox">
                 <img v-lazy="item.src">
                 <p>{{item.title}}</p>
               </div>
-            </a>
+            </router-link>
           </li>
         </ul>
       </div>

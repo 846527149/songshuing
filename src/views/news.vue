@@ -5,16 +5,14 @@
     <div class="nytop">
       <div>
         <li>
-          <a
-            href="#"
-            title=" 新闻中心"
-          >新闻中心</a>
+          <router-link to="news">
+          新闻中心</router-link>
         </li>
         <li class="cat-item cat-item-3">
-          <a href="#">公司动态</a>
+          <router-link to="news">公司动态</router-link>
         </li>
         <li class="cat-item cat-item-4">
-          <a href="#">行业新闻</a>
+          <router-link to="news">行业新闻</router-link>
         </li>
       </div>
     </div>
@@ -27,20 +25,20 @@
             v-for="(item,index) in newsItem"
             :key="index"
           >
-            <a :href="item.href">
+            <router-link :to="item.href">
               <div class="ny_news_l">
                 <img :src="item.src">
                 <p>{{item.createdate}}</p>
               </div>
-            </a>
+            </router-link>
             <div class="ny_news_r">
-              <a :href="item.href">
+              <router-link :to="item.href">
                 <h3>{{item.title}}</h3>
-              </a>
+              </router-link >
               <h5>{{item.des}}</h5>
               <hr>
               <h5>
-                <a :href="item.href">查看详情</a>
+               <router-link :to="item.href">查看详情</router-link >
               </h5>
             </div>
             <div class="clear"></div>

@@ -2,7 +2,7 @@
   <div class="ind_news wp">
     <h2>
       新闻中心
-      <a href="#">查看更多 +</a>
+       <router-link to="news">查看更多 +</router-link>
     </h2>
     <div class="ind_news_l">
       <div class="imgwk">
@@ -11,10 +11,10 @@
         </a>
       </div>
       <div class="xwjj">
-        <a href="#">
+       <a href="http://www.songshuing.com">
           <h3>景海园林预祝新老客户新年快乐</h3>
         </a>
-        <a href="#">
+        <a href="http://www.songshuing.com">
           <p>金猪年即将到来，景海园林全体员工祝广大新老客户新年快乐，公司春节期间正常营业，求购电话：13203649983</p>
         </a>
       </div>
@@ -25,11 +25,11 @@
           v-for="(item,index) in newsData"
           :key="index"
         >
-          <a :href="item.link">
+           <router-link :to="item.link">
             <h3>{{item.title}}</h3>
             <h4>{{item.createdate}}</h4>
             <h5>{{item.des}}</h5>
-          </a>
+          </router-link>
         </li>
       </ul>
     </div>
@@ -45,7 +45,7 @@ export default {
     return {
       newsMain: {
         src: "./static/images/2019012301.jpg",
-        link: "#"
+        link: "http://www.songshuing.com"
       },
       newsData: [
         {

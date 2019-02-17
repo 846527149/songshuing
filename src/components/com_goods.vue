@@ -6,12 +6,12 @@
       </h2>
       <ul>
         <li v-for="(item,index) in goodsData" :key="index">
-          <a :href="item.link">
+          <router-link :to="item.link">
             <div class="imgbox">
               <img v-lazy="item.src">
               <p>{{item.title}}</p>
             </div>
-          </a>
+          </router-link>
         </li>
         <div class="clear"></div>
       </ul>
