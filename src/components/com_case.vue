@@ -32,22 +32,22 @@ export default {
       caseData: [
         {
           title: "首页",
-          src: require("../assets/images/goods.jpg"),
+          src: "./static/images/goods.jpg",
           link: "#"
         },
         {
           title: "首页",
-          src: require("../assets/images/goods.jpg"),
+          src: "./static/images/goods.jpg",
           link: "#"
         },
         {
           title: "首页",
-          src: require("../assets/images/goods.jpg"),
+          src: "./static/images/goods.jpg",
           link: "#"
         },
         {
           title: "首页",
-          src: require("../assets/images/goods.jpg"),
+          src: "./static/images/goods.jpg",
           link: "#"
         }
       ]

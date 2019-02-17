@@ -43,7 +43,10 @@
             </div>
           </div>
         </div>
-        <div class="ny_goods_right"><img :src="imageUrl" /></div>
+        <div class="ny_goods_right">
+          <p>{{newsContent}}</p>
+          <img :src="newsImage">
+        </div>
       </div>
     </div>
     <footerlink />
@@ -62,10 +65,28 @@ export default {
     combanner,
     footerlink
   },
+
+  methods: {
+    getNewsContent() {
+      let code = this.$route.query.code;
+      let newsList = require("../data/news.json");
+      let index = 0;
+      newsList.newsitem.forEach(function(element, i) {
+        if (element.code == code) {
+          index = i;
+        }
+      });
+      this.newsContent = newsList.newsitem[index].content;
+      this.newsImage = newsList.newsitem[index].src;
+    }
+  },
+  mounted() {
+    this.getNewsContent();
+  },
   data() {
-    let code = this.$route.query.code;
     return {
-      imageUrl: "./static/images/" + code + ".jpg"
+      newsContent: null,
+      newsImage: null
     };
   }
 };
@@ -75,8 +96,8 @@ export default {
 .ny_com {
   padding-left: 20px;
 }
-.ny_goods_right {
-  text-align: center;
+p {
+  text-indent: 24px;
 }
 </style>
 

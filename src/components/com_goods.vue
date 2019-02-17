@@ -26,12 +26,12 @@ export default {
   data() {
     return {
       goodsData: [
-        { title: "精品景观松", src: require('../assets/images/2019012309.jpg'),link:"#"},
-        { title: "精品景观松", src: require('../assets/images/2019012310.jpg'),link:"#"},
-        { title: "精品景观松", src: require('../assets/images/2019012311.jpg'),link:"#"},
-        { title: "精品景观松", src: require('../assets/images/2019012305.jpg'),link:"#"},
-        { title: "精品景观松", src: require('../assets/images/2019012312.jpg'),link:"#"},
-        { title: "精品景观松", src: require('../assets/images/2019012306.jpg'),link:"#"},
+        { title: "精品景观松", src: "./static/images/2019012309.jpg",link:"goods_detail?code=2019012309"},
+        { title: "精品景观松", src: "./static/images/2019012310.jpg",link:"goods_detail?code=2019012310"},
+        { title: "精品景观松", src: "./static/images/2019012311.jpg",link:"goods_detail?code=2019012311"},
+        { title: "精品景观松", src: "./static/images/2019012305.jpg",link:"goods_detail?code=2019012305"},
+        { title: "精品景观松", src: "./static/images/2019012312.jpg",link:"goods_detail?code=2019012312"},
+        { title: "精品景观松", src: "./static/images/2019012306.jpg",link:"goods_detail?code=2019012306"},
       ]
     };
   }

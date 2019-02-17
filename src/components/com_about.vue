@@ -25,7 +25,7 @@
 export default {
   data() {
     return {
-      companyImage:require("../../src/assets/images/2019012302.jpg")
+      companyImage:"./static/images/2019012302.jpg"
     };
   }
 };

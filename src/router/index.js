@@ -8,6 +8,8 @@ import Goods_detail from '../views/goods_detail.vue'
 import News from '../views/news.vue'
 import Case from '../views/case.vue'
 import Contact from '../views/contact.vue'
+import News_detail from '../views/news_detail.vue'
+
 
 
 // in development-env not use lazy-loading, because lazy-loading too many pages will cause webpack hot update too slow. so only in production use lazy-loading;
@@ -38,6 +40,10 @@ export const constantRouterMap = [{
   {
     path: "/news",
     component: News
+  },
+  {
+    path: "/news_detail",
+    component: News_detail
   },
   {
     path: "/case",

@@ -229,7 +229,7 @@ p.pag a:hover{background:#959595;color:#fff}
 	/*case end*/
 	.ft img,.ftnr{display: none;}
 	#ft{padding:0}
-	
+
 }
 @media screen and (max-width:480px){
 	.ft img{float:none;margin:0 0 1rem 0;display: none;}
@@ -240,7 +240,7 @@ p.pag a:hover{background:#959595;color:#fff}
 	.ind_case ul li a .hover .txt h3{width: 140px;}
 }
 @media screen and (max-width:375px){
-	
+
 }
 @media screen and (max-width:320px){
 	/*.about end*/

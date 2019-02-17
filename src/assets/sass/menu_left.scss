@@ -1,0 +1,71 @@
+.ny_goods_left {
+  padding: 0px 10px 10px 10px;
+  float: left;
+  width: 200px;
+  position: relative;
+}
+
+.ny_goods_right {
+  float: left;
+  width: 800px;
+}
+
+.ny_goods_right img {
+  position: relative;
+
+}
+
+.ny_menu_pane {
+  margin-top: 15px;
+}
+
+.ny_menu_pane:first-child {
+  margin-top: 0px;
+}
+
+.ny_menu_pane_title {
+  height: 40px;
+  background-color: #358c00;
+  color: #fff;
+  text-align: left;
+  line-height: 40px;
+  padding-left: 10px;
+}
+
+.ny_menu_pane_item {
+  border: 1px solid #e8e8e8;
+  padding: 5px;
+}
+
+ul {
+  list-style: none;
+  /* 去掉ul前面的符号 */
+  margin: 0px;
+  /* 与外界元素的距离为0 */
+  padding: 0px;
+  /* 与内部元素的距离为0 */
+  width: auto;
+  /* 宽度根据元素内容调整 */
+}
+
+ul li {
+  font-size: 14px;
+  background: none;
+  margin-bottom: 0px;
+  border-bottom: 1px solid #e8e8e8;
+  line-height: 40px;
+  padding-left: 10px;
+  height: 40px;
+}
+
+ul li a {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  width: 100%;
+}
+
+ul li:last-child {
+  border-bottom: 0px;
+}
