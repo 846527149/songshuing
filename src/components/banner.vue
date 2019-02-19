@@ -6,7 +6,6 @@
 <style lang="scss" scoped>
 .banner {
   img{
-    height: 490px;
     width: 100%;
   }
 }
