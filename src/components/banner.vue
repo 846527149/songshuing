@@ -16,7 +16,6 @@ export default {
   data() {
     return {
       bannerData: { src: require("../assets/images/banner.jpg") }
-
     };
   }
 };
