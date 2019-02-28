@@ -25,7 +25,7 @@
 export default {
   data() {
     return {
-      companyImage:"./static/images/2019012302.jpg"
+      companyImage:"http://media.songshuing.com/2019012302.jpg"
     };
   }
 };

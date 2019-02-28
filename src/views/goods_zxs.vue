@@ -38,62 +38,62 @@ export default {
       goodsData: [
           {
           href: "goods_detail?code=goods",
-          src: "./static/images/goods.jpg",
+          src: "http://media.songshuing.com/goods.jpg",
           title: "造型松树"
         },
          {
          href: "goods_detail?code=2019012309",
-          src: "./static/images/2019012309.jpg",
+          src: "http://media.songshuing.com/2019012309.jpg",
           title: "造型松树"
         },
         {
           href: "goods_detail?code=2019012302",
-          src: "./static/images/2019012302.jpg",
+          src: "http://media.songshuing.com/2019012302.jpg",
           title: "景观松"
         },
         {
          href: "goods_detail?code=2019012303",
-          src: "./static/images/2019012303.jpg",
+          src: "http://media.songshuing.com/2019012303.jpg",
           title: "黑松"
         },
         {
          href: "goods_detail?code=2019012304",
-          src: "./static/images/2019012304.jpg",
+          src: "http://media.songshuing.com/2019012304.jpg",
           title: "造型松树"
         },
         {
           href: "goods_detail?code=2019012305",
-          src: "./static/images/2019012305.jpg",
+          src: "http://media.songshuing.com/2019012305.jpg",
           title: "造型松树"
         },
         {
          href: "goods_detail?code=2019012306",
-          src: "./static/images/2019012306.jpg",
+          src: "http://media.songshuing.com/2019012306.jpg",
           title: "造型松树"
         },
         {
          href: "goods_detail?code=2019012307",
-          src: "./static/images/2019012307.jpg",
+          src: "http://media.songshuing.com/2019012307.jpg",
           title: "造型松树"
         },
         {
           href: "goods_detail?code=2019012308",
-          src: "./static/images/2019012308.jpg",
+          src: "http://media.songshuing.com/2019012308.jpg",
           title: "造型松树"
         },
         {
           href: "goods_detail?code=2019012310",
-          src: "./static/images/2019012310.jpg",
+          src: "http://media.songshuing.com/2019012310.jpg",
           title: "造型松树"
         },
         {
           href: "goods_detail?code=2019012311",
-          src: "./static/images/2019012311.jpg",
+          src: "http://media.songshuing.com/2019012311.jpg",
           title: "造型松树"
         },
         {
           href: "goods_detail?code=goods",
-          src: "./static/images/goods.jpg",
+          src: ".http://media.songshuing.com/goods.jpg",
           title: "造型松树"
         }
       ]

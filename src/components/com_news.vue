@@ -44,7 +44,7 @@ export default {
   data() {
     return {
       newsMain: {
-        src: "./static/images/2019012301.jpg",
+        src: "http://media.songshuing.com/2019012301.jpg",
         link: "http://www.songshuing.com"
       },
       newsData: [

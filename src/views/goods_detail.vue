@@ -65,7 +65,7 @@ export default {
   data() {
     let code = this.$route.query.code;
     return {
-      imageUrl: "./static/images/" + code + ".jpg"
+      imageUrl: "http://media.songshuing.com/" + code + ".jpg"
     };
   }
 };

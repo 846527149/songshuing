@@ -38,32 +38,32 @@ export default {
       goodsData: [
         {
           href: "goods_detail?code=2019012312",
-          src: "./static/images/2019012312.jpg",
+          src: "http://media.songshuing.com/2019012312.jpg",
           title: "造型盆景"
         },
         {
           href: "goods_detail?code=2019012302",
-          src: "./static/images/2019012302.jpg",
+          src: "http://media.songshuing.com/2019012302.jpg",
           title: "造型盆景"
         },
         {
           href: "goods_detail?code=2019021701",
-          src: "./static/images/2019021701.jpg",
+          src: "http://media.songshuing.com/2019021701.jpg",
           title: "造型盆景"
         },
         {
           href: "goods_detail?code=2019021702",
-          src: "./static/images/2019021702.jpg",
+          src: "http://media.songshuing.com/2019021702.jpg",
           title: "造型盆景"
         },
         {
           href: "goods_detail?code=goods",
-          src: "./static/images/goods.jpg",
+          src: "http://media.songshuing.com/goods.jpg",
           title: "造型盆景"
         },
         {
           href: "goods_detail?code=2019012307",
-          src: "./static/images/2019012307.jpg",
+          src: "http://media.songshuing.com/2019012307.jpg",
           title: "造型盆景"
         },
       ]
